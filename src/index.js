@@ -20,7 +20,7 @@ class Tailwind {
             Config.processCssUrls = false;
         }
 
-        let tailwindcss = require('tailwindcss');
+        const tailwindcss = require('tailwindcss');
 
         Config.postCss.push(tailwindcss(this.configPath));
     }
