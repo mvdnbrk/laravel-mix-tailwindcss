@@ -7,7 +7,7 @@ This extension provides instant Tailwind CSS support to your Mix (v2.1 and up) b
 First, install the extension.
 
 ```bash
-npm install laravel-mix-tailwind-css --save-dev
+npm install mix-tailwindcss --save-dev
 ```
 
 Then, require it within your `webpack.mix.js` file, like so:
@@ -15,7 +15,7 @@ Then, require it within your `webpack.mix.js` file, like so:
 ```js
 const mix = require('laravel-mix');
 
-require('laravel-mix-tailwind-css');
+require('mix-tailwindcss');
 
 mix
     .js('resources/js/app.js', 'public/js')
