@@ -2,11 +2,7 @@ const mix = require('laravel-mix');
 
 class Tailwind {
     dependencies() {
-        this.requiresReload = `
-            Tailwind has now been installed. Please ensure that
-            your tailwind.js configuration file (node_modules/.bin/tailwind init)
-            has been created, and then run "npm run dev" again.
-        `;
+        this.requiresReload = `Tailwind CSS has now been installed.`;
 
         return ['tailwindcss'];
     }
