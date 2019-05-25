@@ -1,14 +1,36 @@
 const mix = require('laravel-mix');
 
 class Tailwind {
+    seesTailwindConfig(path) {
+        try {
+            require.resolve(path);
+
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
+
     dependencies() {
         this.requiresReload = `Tailwind CSS has now been installed.`;
 
         return ['tailwindcss'];
     }
 
-    register(configPath = './tailwind.js') {
+    register(configPath) {
         this.configPath = configPath;
+
+        if (this.configPath !== undefined) {
+            return;
+        }
+
+        if (this.seesTailwindConfig('./tailwind.js')) {
+            this.configPath = './tailwind.js';
+        }
+
+        if (this.seesTailwindConfig('./tailwind.config.js')) {
+            this.configPath = './tailwind.config.js';
+        }
     }
 
     boot() {
