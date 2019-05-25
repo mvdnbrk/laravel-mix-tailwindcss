@@ -2,6 +2,7 @@
 
 [![Latest Version on NPM][ico-version]][link-npm]
 [![Software License][ico-license]](LICENSE.md)
+[![StyleCI][ico-styleci]][link-styleci]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 This extension provides instant Tailwind CSS support to your Mix builds.  
@@ -67,8 +68,10 @@ If you discover any security related issues, please email mvdnbrk@gmail.com inst
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 [ico-downloads]: https://img.shields.io/npm/dt/mix-tailwindcss.svg?style=flat-square
-[ico-version]: https://img.shields.io/npm/v/mix-tailwindcss.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-styleci]: https://github.styleci.io/repos/188557285/shield?style=flat-square&branch=master
+[ico-version]: https://img.shields.io/npm/v/mix-tailwindcss.svg?style=flat-square
 
 [link-downloads]: https://npmjs.com/package/mix-tailwindcss
 [link-npm]: https://npmjs.com/package/mix-tailwindcss
+[link-styleci]: https://github.styleci.io/repos/188557285
