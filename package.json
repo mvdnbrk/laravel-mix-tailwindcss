@@ -1,8 +1,8 @@
 {
-    "name": "laravel-mix-tailwindcss",
+    "name": "laravel-mix-tailwind-css",
     "version": "0.1.0",
     "description": "Tailwind CSS wrapper for Laravel Mix.",
-    "homepage": "https://laravel-mix.com/extensions/tailwindcss",
+    "homepage": "https://laravel-mix.com/extensions/tailwind-css",
     "author": {
         "name": "Mark van den Broek",
         "email": "mvdnbrk@gmail.com",
@@ -21,10 +21,10 @@
     "main": "src/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mvdnbrk/laravel-mix-tailwindcss.git"
+        "url": "git+https://github.com/mvdnbrk/laravel-mix-tailwind-css.git"
     },
     "bugs": {
-        "url": "https://github.com/mvdnbrk/laravel-mix-tailwindcss/issues"
+        "url": "https://github.com/mvdnbrk/laravel-mix-tailwind-css/issues"
     },
     "license": "MIT",
     "peerDependencies": {
