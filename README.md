@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://laravel-mix.com/extensions/tailwindcss">
+      <img src="https://laravel-mix.com/svg/laravel-mix-tailwindcss.svg" alt="Laravel Mix Tailwind CSS" width="200">
+  </a>
+</p>
+
 # Laravel Mix Tailwind CSS
 
 [![Latest Version on NPM][ico-version]][link-npm]
