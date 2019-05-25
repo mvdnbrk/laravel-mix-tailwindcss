@@ -1,23 +1,36 @@
 {
-  "name": "laravel-mix-tailwind",
-  "version": "0.1.0",
-  "description": "A quick Laravel Mix extension for Tailwind support.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeffreyway/laravel-mix-tailwind.git"
-  },
-  "keywords": ["laravel", "laravel mix", "mix", "tailwind"],
-  "author": "Jeffrey Way",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jeffreyway/laravel-mix-tailwind/issues"
-  },
-  "homepage": "https://github.com/jeffreyway/laravel-mix-tailwind#readme",
-  "peerDependencies": {
-    "laravel-mix": "^2.1.7"
-  }
+    "name": "laravel-mix-tailwindcss",
+    "version": "0.1.0",
+    "description": "Tailwind CSS wrapper for Laravel Mix.",
+    "homepage": "https://laravel-mix.com/extensions/tailwindcss",
+    "author": {
+        "name": "Mark van den Broek",
+        "email": "mvdnbrk@gmail.com",
+        "url": "https://github.com/mvdnbrk"
+    },
+    "contributors": [
+        "Jeffrey Way"
+    ],
+    "keywords": [
+        "laravel",
+        "laravel mix",
+        "mix",
+        "tailwind",
+        "tailwind css"
+    ],
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mvdnbrk/laravel-mix-tailwindcss.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mvdnbrk/laravel-mix-tailwindcss/issues"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "laravel-mix": "^2.1.7"
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    }
 }
