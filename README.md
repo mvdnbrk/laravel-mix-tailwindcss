@@ -14,7 +14,7 @@
 This extension provides instant Tailwind CSS support to your Mix builds.  
 Please make sure that you are using `laravel-mix` version 2.1 or higher.
 
-This package works with Tailwind version 1.0 or higher as well with earlier versions.
+This package works with Tailwind version 1.0 or higher but also with earlier versions.
 
 ## Usage
 
