@@ -1,5 +1,9 @@
 # Laravel Mix Tailwind CSS
 
+[![Latest Version on NPM][ico-version]][link-npm]
+[![Software License][ico-license]](LICENSE.md)
+[![Total Downloads][ico-downloads]][link-downloads]
+
 This extension provides instant Tailwind CSS support to your Mix builds.  
 Please make sure that you are using `laravel-mix` version 2.1 or higher.
 
@@ -43,3 +47,28 @@ mix.sass('resources/sass/app.scss', 'public/css')
 And you're done!
 
 Don't forget to [add the Tailwind directives](https://tailwindcss.com/docs/installation/#2-add-tailwind-to-your-css) to your css entry file.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Security
+
+If you discover any security related issues, please email mvdnbrk@gmail.com instead of using the issue tracker.
+
+## Credits
+
+- [Mark van den Broek](https://github.com/mvdnbrk)
+- [Jeffrey Way](https://github.com/JeffreyWay)
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[ico-downloads]: https://img.shields.io/npm/dt/mix-tailwindcss.svg?style=flat-square
+[ico-version]: https://img.shields.io/npm/v/mix-tailwindcss.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+
+[link-downloads]: https://npmjs.com/package/mix-tailwindcss
+[link-npm]: https://npmjs.com/package/mix-tailwindcss
