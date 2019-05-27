@@ -24,12 +24,14 @@ class Tailwind {
             return;
         }
 
-        if (this.seesTailwindConfig('./tailwind.js')) {
-            this.configPath = './tailwind.js';
-        }
-
         if (this.seesTailwindConfig('./tailwind.config.js')) {
             this.configPath = './tailwind.config.js';
+
+            return;
+        }
+
+        if (this.seesTailwindConfig('./tailwind.js')) {
+            this.configPath = './tailwind.js';
         }
     }
 
