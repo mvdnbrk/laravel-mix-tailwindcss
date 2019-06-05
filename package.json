@@ -28,7 +28,7 @@
     },
     "license": "MIT",
     "peerDependencies": {
-        "laravel-mix": "^2.1.7"
+        "laravel-mix": "^2.1.7||^3.0||^4.0"
     },
     "engines": {
         "node": ">=6.0.0"
