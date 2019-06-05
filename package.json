@@ -1,6 +1,6 @@
 {
     "name": "mix-tailwindcss",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Tailwind CSS wrapper for Laravel Mix.",
     "homepage": "https://laravel-mix.com/extensions/tailwindcss",
     "author": {
