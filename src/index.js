@@ -40,6 +40,10 @@ class Tailwind {
             Config.processCssUrls = false;
         }
 
+        if (Mix.components.has('postCss') && Mix.seesNpmPackage('postcss-import')) {
+            Config.postCss.push(require('postcss-import'));
+        }
+
         const tailwindcss = require('tailwindcss');
 
         Config.postCss.push(tailwindcss(this.configPath));
