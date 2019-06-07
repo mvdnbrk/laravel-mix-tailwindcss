@@ -55,6 +55,17 @@ And you're done!
 
 Don't forget to [add the Tailwind directives](https://tailwindcss.com/docs/installation/#2-add-tailwind-to-your-css) to your css entry file.
 
+### PostCSS with postcss-import
+
+If you're not integrating any Sass, Less or Stylus stylesheets you can use the `mix.postCss()` method.
+
+When the `postcss-import` plugin is installed, it will be automatically detected and applied to your build.
+
+```js
+mix.postCss('resources/css/app.css', 'public/css/post.css')
+    .tailwind();
+```
+
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
