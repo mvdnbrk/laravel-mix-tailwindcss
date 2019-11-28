@@ -62,7 +62,7 @@ If you're not integrating any Sass, Less or Stylus stylesheets you can use the `
 When the `postcss-import` plugin is installed, it will be automatically detected and applied to your build.
 
 ```js
-mix.postCss('resources/css/app.css', 'public/css/post.css')
+mix.postCss('resources/css/app.css', 'public/css')
     .tailwind();
 ```
 
