@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-Copyright (c) 2019 Mark van den Broek <mvdnbrk@gmail.com> and Jeffrey Way.
+Copyright (c) 2020 Mark van den Broek <mvdnbrk@gmail.com> and Jeffrey Way.
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
