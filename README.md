@@ -68,7 +68,7 @@ mix.postCss('resources/css/app.css', 'public/css')
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ## Security
 
