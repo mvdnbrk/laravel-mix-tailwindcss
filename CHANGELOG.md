@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `laravel-mix-tailwind-css` will be documented in this file.
+All notable changes to `laravel-mix-tailwindcss` will be documented in this file.
 
 ## [v1.2.0] - 2019-09-19
 - Added support for Laravel Mix 5.0. [`8c7cb8a`](https://github.com/mvdnbrk/laravel-mix-tailwindcss/commit/8c7cb8a395657d759de37ab4f7af34ccd2cb71f2)
