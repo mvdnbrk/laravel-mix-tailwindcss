@@ -2,7 +2,14 @@
 
 All notable changes to `laravel-mix-tailwindcss` will be documented in this file.
 
+## [v1.3.0] - 2021-01-20
+
+### Added
+- Added support for Laravel Mix 6.0. [`1325049`](https://github.com/mvdnbrk/laravel-mix-tailwindcss/commit/132504942c977694220641e5c02334befc973b28)
+
 ## [v1.2.0] - 2019-09-19
+
+### Added
 - Added support for Laravel Mix 5.0. [`8c7cb8a`](https://github.com/mvdnbrk/laravel-mix-tailwindcss/commit/8c7cb8a395657d759de37ab4f7af34ccd2cb71f2)
 
 ## [v1.1.0] - 2019-06-07
